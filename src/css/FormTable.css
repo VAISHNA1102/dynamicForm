@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+  }
+  
+  thead {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+/*   
+  tr:hover {
+    background-color: #f1f1f1;
+  } */
+  
+  button {
+    padding: 8px 12px;
+    margin-right: 10px;
+  }
+  
+  button.delete {
+    background-color: #e53935;
+  }
+  
+  button.edit {
+    background-color: #43a047;
+  }
+  
+  button:hover.delete {
+    background-color: #c62828;
+  }
+  
+  button:hover.edit {
+    background-color: #2e7d32;
+  }
+  

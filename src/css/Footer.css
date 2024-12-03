@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2F3C52; /* Darker footer color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;  /* Sticky footer */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .footer p {
+      font-size: 12px;
+    }
+  }

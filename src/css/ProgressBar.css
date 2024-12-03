@@ -1,0 +1,25 @@
+.progress-bar {
+    margin-top: 1.5rem;
+    height: 20px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #3f51b5;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  
+  .progress span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
